@@ -1,0 +1,44 @@
+/* Imports for global scope */
+
+MongoInternals = Package.mongo.MongoInternals;
+Mongo = Package.mongo.Mongo;
+ReactiveVar = Package['reactive-var'].ReactiveVar;
+Tracker = Package.tracker.Tracker;
+Deps = Package.tracker.Deps;
+Restivus = Package['nimble:restivus'].Restivus;
+lodash = Package['erasaur:meteor-lodash'].lodash;
+_ = Package.underscore._;
+CollectionHooks = Package['matb33:collection-hooks'].CollectionHooks;
+HTTP = Package.http.HTTP;
+HTTPInternals = Package.http.HTTPInternals;
+FlowRouter = Package['kadira:flow-router'].FlowRouter;
+tx = Package['babrahams:transactions'].tx;
+ServiceConfiguration = Package['service-configuration'].ServiceConfiguration;
+MailChimp = Package['miro:mailchimp'].MailChimp;
+Email = Package.email.Email;
+EmailInternals = Package.email.EmailInternals;
+chai = Package['practicalmeteor:chai'].chai;
+assert = Package['practicalmeteor:chai'].assert;
+expect = Package['practicalmeteor:chai'].expect;
+should = Package['practicalmeteor:chai'].should;
+Meteor = Package.meteor.Meteor;
+global = Package.meteor.global;
+meteorEnv = Package.meteor.meteorEnv;
+WebApp = Package.webapp.WebApp;
+main = Package.webapp.main;
+WebAppInternals = Package.webapp.WebAppInternals;
+DDP = Package['ddp-client'].DDP;
+DDPServer = Package['ddp-server'].DDPServer;
+LaunchScreen = Package['launch-screen'].LaunchScreen;
+Accounts = Package['accounts-base'].Accounts;
+meteorInstall = Package.modules.meteorInstall;
+Buffer = Package.modules.Buffer;
+process = Package.modules.process;
+Autoupdate = Package.autoupdate.Autoupdate;
+__extends = Package['barbatus:typescript-runtime'].__extends;
+__decorate = Package['barbatus:typescript-runtime'].__decorate;
+__metadata = Package['barbatus:typescript-runtime'].__metadata;
+__param = Package['barbatus:typescript-runtime'].__param;
+__awaiter = Package['barbatus:typescript-runtime'].__awaiter;
+__assign = Package['barbatus:typescript-runtime'].__assign;
+
